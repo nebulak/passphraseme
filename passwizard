@@ -1207,7 +1207,7 @@ def generate(word_count=7):
 
 if __name__ == '__main__':
 
-    passphrase = generate(7)
+    passphrase = generate(6)
     print('Your secure password:')
     print('\033[92m')
     print(passphrase)
